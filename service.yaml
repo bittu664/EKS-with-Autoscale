@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: nodejs-svc
+spec:
+  selector:
+    app: nodejs-apps
+  type: LoadBalancer
+  ports:
+  - port: 3000
+    targetPort: 8080
