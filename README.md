@@ -17,6 +17,9 @@ Next step is Setting metrics server in kubernetes for checking CPU and Memory us
 ``` kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.3.7/components.yaml ```
 
 
+For storing Docker images i used AWS ECR which is private docker registry. 
+
+
 After that run Deployment and service Mainfest file which is exposed through Loadbalancer with port 3000. 
 
 ``` kubectl apply -f deployment.yaml ```
