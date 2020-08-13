@@ -36,5 +36,6 @@ Then run HPA (Horizontal Pod Autoscaler) file for CPU and Memory Mainfest file a
 
 ## Load testing using siege and Jmeter Tool.
 
-1. For siege use this command:- ``` siege -q -c 250 -t 1m  http://mywebsite.com ```
-
+1. For siege requsting 250 user with this command:- ``` siege -q -c 250 -t 1m  http://mywebsite.com ```
+2. For Jmeter using this command:-                  ``` jmeter -n -t ./report.jmx -l ./report.csv ```
+3. For Generating the Report in HTML format:-       ``` jmeter -n -t ./report.jmx -l ./report.csv -e -o ./Jmeter-HTML-Report ``` 
