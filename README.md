@@ -9,4 +9,4 @@ First of all setup EKS by writing cluster.yaml file and run it with following co
 ### OUTPUTS
 
 ![Screenshot](./images/aws-eks-1.png)
-![Screenshot](./images/aws-eks-2.png)
+![Screenshot](./images/eks-output2.png)
