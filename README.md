@@ -12,12 +12,12 @@ First of all setup EKS by writing cluster.yaml file and run it with following co
 
 ![Screenshot](./images/eks-output2.png)
 
-Setting metrics server in kubernetes for checking CPU and Memory usage using this link 
+Next step is Setting metrics server in kubernetes for checking CPU and Memory usage using this link 
 
 ``` kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.3.7/components.yaml ```
 
 
-After that run Deployment and service Mainfest file by these coomand 
+After that run Deployment and service Mainfest file which is exposed through Loadbalncer with port 3000. 
 
 ``` kubectl apply -f deployment.yaml ```
 
