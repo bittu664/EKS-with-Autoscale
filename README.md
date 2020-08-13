@@ -23,7 +23,7 @@ After that run Deployment and service Mainfest file which is exposed through Loa
 
 ``` kubectl apply -f service.yaml ```
 
-Then run HPA (Horizontal Pod Autoscaler) file for CPU and Memory Mainfest file.
+Then run HPA (Horizontal Pod Autoscaler) file for CPU and Memory Mainfest file and the thresold will be 50% CPU and 60% Memory.
  
 ``` kubectl apply -f hpa-cpu.yaml ```
 
