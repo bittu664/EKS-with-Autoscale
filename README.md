@@ -44,5 +44,5 @@ Then run HPA (Horizontal Pod Autoscaler) file for CPU and Memory Mainfest file a
 **OUTPUTS FOR LOAD INCREASE**
 
 
-![Screenshot](./images/output-for-Loadtes.png)
+![Screenshot](./images/output-for-Loadtest.png)
 
