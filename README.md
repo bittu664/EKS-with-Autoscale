@@ -32,3 +32,9 @@ Then run HPA (Horizontal Pod Autoscaler) file for CPU and Memory Mainfest file a
 **OUTPUTS FOR CPU AND MEMORY UTILIZATION**
 
 ![Screenshot](./images/top.png)
+
+
+## Load testing using siege and Jmeter Tool.
+
+1. For siege use this command:- ``` siege -q -c 250 -t 1m  http://mywebsite.com ```
+
