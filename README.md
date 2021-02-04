@@ -14,8 +14,19 @@ First of all setup EKS by writing cluster.yaml file and run it with following co
 
 Next step is Setting metrics server in kubernetes for checking CPU and Memory usage using this link 
 
+
+**Ref-links**  https://github.com/kubernetes-sigs/metrics-server/
+
+**Old-links**
+
 ``` kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.3.7/components.yaml ```
 
+
+**New link**
+
+```
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+```
 
 For storing Docker images i used AWS ECR which is private docker registry. 
 
